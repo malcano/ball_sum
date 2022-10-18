@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "test",
+      "setup": "bash ./build.sh Ball.java",
+      "run": "bash ./run.sh Ball",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test",
+      "setup": "bash ./build.sh Sum.java",
+      "run": "bash ./run.sh Sum",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
